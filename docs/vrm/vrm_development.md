@@ -38,7 +38,6 @@ VRM-0.x(各ボーンの rotation を代入するだけ) に比べて RunTime の
 - A non-physical shaking thing has been set up ➡️ It shakes without interfering with physics, so it won't interfere with the game's gimmicks or become violent.
 - VR settings are available ➡️ [FirstPerson](/api/firstperson)
 - License information is defined ➡️ You can avoid using the model in a way that does not meet the wishes of the model owner.
-
 Rather than packaging it as an asset in a traditional game development project,
 The intended use is to load it dynamically at runtime.
 
