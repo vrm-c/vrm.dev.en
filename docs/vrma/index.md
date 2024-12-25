@@ -1,11 +1,3 @@
----
-date: 2024-02-05T18:30:00+09:00
-url: /vrma_about/
-weight: 1
----
-
-https://github.com/vrm-c/vrm-specification/tree/master/specification/VRMC_vrm_animation-1.0
-
 # VRM Animation
 
 ## What is "VRM Animation" ?
@@ -78,23 +70,16 @@ Name and Url is required.
 
 ## Development of applications using VRM Animation
 
-VRM-1.0 の方に、VRM-Animation サポートが実装されています。
+VRM-1.0 に、VRM-Animation サポートが実装されています。
 
-### import
+## 仕様
 
-[import](/vrma/univrm-vrma/vrma-import)
-と
-[retarget](/vrma/univrm-vrma/retarget)
-を参照してください。
+https://github.com/vrm-c/vrm-specification/tree/master/specification/VRMC_vrm_animation-1.0
 
-### export
+![img](../api/humanoid/ControlRig.png)
 
-また、Unity 上に humanoid のアニメーションがある場合に、
-コマ送りして VRM-Animation として export することが可能です。
+:::tip 正規化さていないスケルトン/モーションを変換できます。
 
-:::warning editor 専用です
+[ControlRig](/api/humanoid/Vrm10RuntimeControlRig/)
+
 :::
-
-[export](/vrma/univrm-vrma/vrma-export)
-
-を参照してださい。
