@@ -102,7 +102,7 @@ const config: Config = {
         {
           label: "ErrorInfo",
           type: "docSidebar",
-          sidebarId: "errorSidebar",
+          sidebarId: "vrmaSidebar",
           position: "left",
         },
         //
