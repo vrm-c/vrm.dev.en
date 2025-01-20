@@ -1,9 +1,3 @@
----
-date: 2018-04-16T16:30:00+09:00
-url: /vrm_about/
-weight: 1
----
-
 # What is VRM ? What can VRM do ?
 
 ## What is VRM?
@@ -18,10 +12,12 @@ VRM can handle `humanoid` `character avatars`.
 ### Contents
 
 - VRM is formulated on top of the 3D standard format **glTF2.0** to handle the humanoid model. The humanoid motion (e.g. from motion capture) can be reproduced based on defined Humanoid bones in VRM
-  - ➡️  Related to this is [VRM Animation](/vrma).
+
+  - ➡️ Related to this is [VRM Animation](/vrma).
 
 - **Runtime VRM Import**: all data including textures and materials is compacted as one file. To import the VRM model into applications, only one single file is needed
 - Standard face operations such as `emotions`, `blinks`, and `aiueo` are defined, and you can do the following.
+
   - Select facial expressions by user operation
   - Lip sync from voice
   - Random blink
@@ -78,6 +74,7 @@ In the past, handling **3D humanoid avatar (3D model)** in Virtual Reality, Virt
 Because...
 
 - The output data is depend on how creators make the 3D model and what modeling tools are used
+
   - The coordinate system, scale, initial pose, and the way to express expressions are all different...
   - Needless to say, the way bones put into the 3D model is also different
   - The initial posture is different (T-Pose, A-Pose, Z + orientation, Z-direction).
