@@ -2,6 +2,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 import remark_plugin from "./remark_plugin";
+import path from 'node:path';
 
 const cardImage = "images/vrm/card.png";
 
@@ -204,6 +205,7 @@ const config: Config = {
   } satisfies Preset.ThemeConfig,
 
   plugins: [
+    path.resolve('./custom_webpack.ts'),
     [
       "@docusaurus/plugin-ideal-image",
       {
