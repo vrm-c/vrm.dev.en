@@ -233,6 +233,22 @@ export const users: User[] = [
     }
   },
   {
+    updated: new Date("2026-07-01"),
+    "flags": F.CharacterCreation,
+    "ja": {
+      "title": "VTubeMe",
+      "url": "https://vtubeme.com/",
+      "description": "セルフィー1枚から写実的な3D VRMアバターを数分で作成。VSeeFace・Warudo・3teneなどに対応。",
+      "preview": "https://vtubeme.com/opengraph-image"
+    },
+    "en": {
+      "title": "VTubeMe",
+      "url": "https://vtubeme.com/",
+      "description": "Create a photorealistic 3D VRM avatar from a single selfie in minutes. Works with VSeeFace, Warudo and 3tene.",
+      "preview": "https://vtubeme.com/opengraph-image"
+    }
+  },
+  {
     "flags": F.CharacterCreation,
     "platforms": P.WebBrowser,
     "ja": {
@@ -1950,5 +1966,45 @@ export const users: User[] = [
       "description": "スマホでVRMアニメーション作成. [iOS](https://apps.apple.com/app/isd-pose-alive/id6751082497)"
     },
     "updated": new Date("2025-12-12"),
+  },
+  {
+    "flags": F.WebBrowser | F.Animation | F.Vrm10 | F.Photography,
+    "platforms": P.WebBrowser,
+    "ja": {
+      "title": "VRM Body Modifier",
+      "url": "https://vrm-body-modifier.vercel.app/",
+      "description": "ブラウザ上でVRMモデルの読み込み、体型調整、ポーズ・アニメーション（.vrma）の再生ができるWebツールです。カスタム表情や目線の制御もサポートしています。",
+      "preview": "https://github.com/user-attachments/assets/2af0925a-91c8-4680-9cf4-1bda42eedd34"
+    },
+    "en": {
+      "title": "VRM Body Modifier",
+      "url": "https://vrm-body-modifier.vercel.app/",
+      "description": "A web-based tool to load, modify body proportions, and animate VRM avatars in real-time. Supports .vrma files and custom facial expressions.",
+      "preview": "https://github.com/user-attachments/assets/2af0925a-91c8-4680-9cf4-1bda42eedd34"
+    },
+    "updated": new Date("2026-01-23"),
+  },
+  {
+    // https://github.com/vrm-c/vrm.dev/issues/536
+    updated: new Date("2026-05-10"),
+    flags: F.Vrm10,
+    platforms: P.Windows|P.macOS|P.Linux,
+    ja: {
+      title: "VRM2SL",
+      url: "https://logue.dev/vrm2sl/",
+      description: "VRM1.0形式のアバターをSecondLifeで使用可能なフォーマットに変換するツール。"
+    },
+  },
+  {
+      // https://github.com/vrm-c/vrm.dev/issues/537
+      updated: new Date("2026-05-10"),
+      flags: F.Vrm10,
+      platforms: P.WebBrowser,
+      ja: {
+        title: "Vue VRM",
+        url: "https://github.com/logue/vue-vrm",
+        description: "VRM1.0形式のアバターを表示するためのVueコンポーネント\n- [DEMO](https://logue.dev/vue-vrm)\n- [NPM](https://npmjs.com/vue-vrm)",
+        preview: "https://private-user-images.githubusercontent.com/480173/590066077-5e125b10-2d5c-4506-ae72-94821853137c.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODQ5MTM3MDcsIm5iZiI6MTc4NDkxMzQwNywicGF0aCI6Ii80ODAxNzMvNTkwMDY2MDc3LTVlMTI1YjEwLTJkNWMtNDUwNi1hZTcyLTk0ODIxODUzMTM3Yy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNzI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDcyNFQxNzE2NDdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wNTMwNTI3MzMzZDM1ZmY0MmJhOTFhNjFkYjFlMjYzYmMzNTc3ZWRiYjE3MjNiMTQwNGZmZGViM2MyN2UxOWI4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.88Ss3ecKuZl8n9LbGWLBcUJ-ZvJSEUI3D0Y-IKLB07A",
+      },
   },
 ];
